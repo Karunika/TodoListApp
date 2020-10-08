@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="mainjs.js"></script>
+</head>
+<body>
+
+    <!-- message -->
+    <div class="message" id="start-editing">
+        <span>You can start editing now... <br>
+            (Click on the todo Title to edit it)
+        </span>
+    </div>
+    <div class="message" id="saved">
+        <span>Saved!</span>
+    </div>
+    <div class="message" id="deleted">
+        <span>Deleted!</span>
+    </div>
+
+
+    <div id="heading">
+        <h1>Todo List</h1>
+    </div>
+    <form>
+        <input type="text" name="todo-title-input" id="todo-title-input">
+        <button id="todo-add-btn"><i class="fa fa-plus"></i></button>
+    </form>
+    <div id="todo-list-container">
+        <ul id="todo-list">
+            
+        </ul>
+    </div>
+    
+</body>
+</html>

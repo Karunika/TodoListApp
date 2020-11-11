@@ -39,6 +39,7 @@ form{
     font-size: 1rem;
     padding: 0.5rem;
     width: 100%;
+    padding-left: 1.5rem;
     padding-right: 2.5rem;
 }
 #todo-add-btn{
